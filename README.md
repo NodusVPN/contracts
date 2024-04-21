@@ -1,57 +1,21 @@
 # NodusVPN
-NodusVPN is a decentralized VPN service that provides anonymity, security, and freedom online. <!-- описание репозитория -->
 
-![Logotype](./Docs/wall.jpg)
+![Logotype](./logo.png)
 
-<!--Установка-->
-## Установка (Linux)
-У вас должны быть установлены [зависимости проекта](https://github.com/OkulusDev/Oxygen#зависимости)
-
-1. Клонирование репозитория 
-
-```git clone https://github.com/OkulusDev/Oxygen.git```
-
-2. Переход в директорию Oxygen
-
-```cd Oxygen```
-
-3. Создание виртуального окружения
-
-```python3 -m venv venv```
-
-4. Активация виртуального окружения
-
-```source venv/bin/activate```
-
-5. Установка зависимостей
-
-```pip3 install -r requirements.txt```
-
-6. Запуск скрипта для демонстрации возможностей Oxygen
-
-```python3 oxygen.py --help```
+<!--Полное описание-->
+## Description
+NodusVPN is a decentralized VPN service that provides anonymity, security, and freedom on the Internet. It enables users to circumvent censorship and other restrictions by using servers around the world. NodusVPN operates on a fair and transparent monetization model, utilizing the NDS token, which allows users not only to pay for services but also to earn by providing servers to the community. Thanks to the absence of a central hosting center, both users and providers can maintain complete anonymity. NodusVPN uses zero-trust smart contracts, OpenVPN (udp+tcp) and Wireguard protocols, as well as asymmetric encryption to ensure security and privacy.
 
 <!--Пользовательская документация-->
-## Документация
-Пользовательскую документацию можно получить по [этой ссылке](./docs/ru/index.md).
+## Documentation
+Read the full project description and the Nodus ecosystem at [this link](https://nodusvpn.gitbook.io/nodus-vpn/).
 
-[Релизы программы]: https://github.com/OkulusDev/Oxygen/releases
-
-<!--Поддержка-->
-## Поддержка
-Если у вас возникли сложности или вопросы по использованию пакета, создайте 
-[обсуждение](https://github.com/OkulusDev/Oxygen/issues/new/choose) в данном репозитории или напишите на электронную почту <bro.alexeev@inbox.com>.
-
-<!--зависимости-->
-## Зависимости
-Эта программа зависит от интепретатора Python версии 3.7 или выше, PIP 23.2.1 или выше. Если вы заметили, что он данное ПО можно запустить на версии ниже, или он не работает на какой-либо версии, то напишите в [поддержку](https://github.com/OkulusDev/Oxygen#поддержка)
-
-<!--описание коммитов-->
+<!--описание контрактов-->
 ## Сontracts description 
 | Folder | Description                                                        |
 |----------|-----------------------------------------------------------------|
-| Token	   | Сборка проекта или изменения внешних зависимостей               |
-| Staking      | Безопасность, уязвимости                                        |
-| Vesting       | Настройка CI и работа со скриптами                              |
-| DAO	   | Обновление документации                                         |
-| Payment	   | Добавление нового функционала                                   |
+| token	   | NDS token contract               |
+| staking      | Staking contract                                        |
+| vesting       | Vesting contract                              |
+| dao	   | Voiting contract                                         |
+| payment	   | VPN service payment                                  |
