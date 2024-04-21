@@ -11,7 +11,7 @@ NodusVPN is a decentralized VPN service that provides anonymity, security, and f
 Read the full project description and the Nodus ecosystem at [this link](https://nodusvpn.gitbook.io/nodus-vpn/).
 
 <!--описание контрактов-->
-## Сontracts description 
+## Folders description 
 | Folder | Description                                                        |
 |----------|-----------------------------------------------------------------|
 | token	   | NDS token contract               |
