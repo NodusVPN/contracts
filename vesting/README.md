@@ -57,17 +57,17 @@ Run tests:
     
 Creates a vesting plan. Available only to the owner. 
 
-_amount - total tokens for vesting, 
+**_amount** - total tokens for vesting, 
 
-_firstUnlockPercent - first unlock percentage, 
+**_firstUnlockPercent** - first unlock percentage, 
 
-_firstUnlockTimestamp - first unlock time, 
+**_firstUnlockTimestamp** - first unlock time, 
 
-_unlockPercent - subsequent unlocks in percent,
+**_unlockPercent** - subsequent unlocks in percent,
 
-_unlockTime - time interval for unlocks,
+**_unlockTime** - time interval for unlocks,
 
-_contractAddress - token address for vesting
+**_contractAddress** - token address for vesting
 
     function updateVesting(
             uint256 _vestingId,
@@ -83,9 +83,11 @@ Updates the vesting plan of a _vestingId. Available only to the owner.
     function setVestingHolders(uint256 _vestingId, address[] memory _holders, uint256[] memory _amounts) 
 Adds users for the specified vesting. Available only to the owner.
 
-vestingId - vesting plan id,
-holders - holdings list,
-amount - list of token count values for each holder
+**vestingId** - vesting plan id,
+
+**holders** - holdings list,
+
+**amount** - list of token count values for each holder
 
     function claim(uint256 _vestingId) public
 Function for claiming tokens available to the user.
@@ -93,9 +95,11 @@ Function for claiming tokens available to the user.
     function claimable(uint256 _vestingId, address _user, uint256 _claimTimestamp) public view returns (uint256)
 Returns the number of tokens available for claiming.
 
-vestingId - vesting plan id,
-user - user address,
-claimTimestamp - time of claiming
+**vestingId** - vesting plan id,
+
+**user** - user address,
+
+**claimTimestamp** - time of claiming
 
     function amountLocked(uint256 _vestingId, address _user) public view returns (uint256)
 Returns the number of tokens in the vesting.
