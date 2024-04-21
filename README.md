@@ -1,13 +1,7 @@
-# Oxygen
-Программное обеспечение для инженерных вычислений, научно-естественных наук, математики и алгоритмов <!-- описание репозитория -->
-<!--Блок информации о репозитории в бейджах-->
-![Static Badge](https://img.shields.io/badge/OkulusDev-Oxygen-Oxygen)
-![GitHub top language](https://img.shields.io/github/languages/top/OkulusDev/Oxygen)
-![GitHub](https://img.shields.io/github/license/OkulusDev/Oxygen)
-![GitHub Repo stars](https://img.shields.io/github/stars/OkulusDev/Oxygen)
-![GitHub issues](https://img.shields.io/github/issues/OkulusDev/Oxygen)
+# NodusVPN
+NodusVPN is a decentralized VPN service that provides anonymity, security, and freedom online. <!-- описание репозитория -->
 
-![Logotype](./docs/wall.jpg)
+![Logotype](./Docs/wall.jpg)
 
 <!--Установка-->
 ## Установка (Linux)
@@ -53,17 +47,11 @@
 Эта программа зависит от интепретатора Python версии 3.7 или выше, PIP 23.2.1 или выше. Если вы заметили, что он данное ПО можно запустить на версии ниже, или он не работает на какой-либо версии, то напишите в [поддержку](https://github.com/OkulusDev/Oxygen#поддержка)
 
 <!--описание коммитов-->
-## Описание коммитов
-| Название | Описание                                                        |
+## Сontracts description 
+| Folder | Description                                                        |
 |----------|-----------------------------------------------------------------|
-| build	   | Сборка проекта или изменения внешних зависимостей               |
-| sec      | Безопасность, уязвимости                                        |
-| ci       | Настройка CI и работа со скриптами                              |
-| docs	   | Обновление документации                                         |
-| feat	   | Добавление нового функционала                                   |
-| fix	   | Исправление ошибок                                              |
-| perf	   | Изменения направленные на улучшение производительности          |
-| refactor | Правки кода без исправления ошибок или добавления новых функций |
-| revert   | Откат на предыдущие коммиты                                     |
-| style	   | Правки по кодстайлу (табы, отступы, точки, запятые и т.д.)      |
-| test	   | Добавление тестов                                               |
+| Token	   | Сборка проекта или изменения внешних зависимостей               |
+| Staking      | Безопасность, уязвимости                                        |
+| Vesting       | Настройка CI и работа со скриптами                              |
+| DAO	   | Обновление документации                                         |
+| Payment	   | Добавление нового функционала                                   |
